@@ -4,7 +4,7 @@ const Persona = require("../models/persona-model");
 
 const postPersona = handleRequest(async (body) => {
   const movieData = body;
-  const movie = await new Persona(movieData)
+  const movie = await Persona.create(movieData);
   return movie;
 });
 
