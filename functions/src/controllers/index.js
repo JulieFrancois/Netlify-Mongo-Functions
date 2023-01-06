@@ -1,6 +1,6 @@
 
-const moviesController = require("./movies-crud.js");
+const personaController = require("./persona-crud.js");
 
 module.exports = {
-  moviesController,
+  personaController,
 };
