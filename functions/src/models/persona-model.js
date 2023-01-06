@@ -10,17 +10,17 @@ const personaSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  city:{
+  city: {
     type: String,
-    required : true
+    required: true
   },
-  activity:{
+  activity: {
     type: Array,
-    required : true
+    required: true
   },
-  mbti:{
+  mbti: {
     type: Number,
-    required : true
+    required: true
   }
   }
 
