@@ -2,6 +2,8 @@ const mongoose = require("mongoose");
 // Dépendance qui permet de relier à mango DB
 
 const personaSchema = new mongoose.Schema({
+
+  //PROFIL///////////////////////////////////////////////////////////////////
   age: {
     type: Number,
     required: true
@@ -18,8 +20,36 @@ const personaSchema = new mongoose.Schema({
     type: Array,
     required: true
   },
-  mbti: {
+
+  //MBTI///////////////////////////////////////////////////////////////////
+  spirit: {
     type: Number,
+    required: true
+  },
+  energy: {
+    type: Number,
+    required: true
+  },
+  nature: {
+    type: Number,
+    required: true
+  },
+  tactic: {
+    type: Number,
+    required: true
+  },
+
+  //OTHERS//////////////////////////////////////////////////////////////////
+  interest: {
+    type: Array,
+    required: true
+  },
+  frustrations: {
+    type: Array,
+    required: true
+  },
+  Tools: {
+    type: Array,
     required: true
   }
   }
