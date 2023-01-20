@@ -48,7 +48,7 @@ const personaSchema = new mongoose.Schema({
     type: Array,
     required: true
   },
-  Tools: {
+  tools: {
     type: Array,
     required: true
   }
